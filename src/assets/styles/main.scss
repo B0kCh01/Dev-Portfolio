@@ -2,6 +2,13 @@
     outline: none;
 }
 
+::selection {
+    background: #eee; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #eee; /* Gecko Browsers */
+}
+
 body {
     display: flex;
     flex-direction: column;
