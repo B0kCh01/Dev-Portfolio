@@ -1,0 +1,22 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "aos": "^2.3.4",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "normalize.css": "^8.0.1",
+    "typeit": "^7.0.4"
+  }
+}
