@@ -2,13 +2,14 @@ import "normalize.css";
 import "aos/dist/aos.css";
 import "../styles/main.scss";
 
-import $ from "jquery";
+import "./import-jquery";
+import "jquery-ui-dist/jquery-ui.js";
+
 import "@fortawesome/fontawesome-free/js/fontawesome.min.js";
 import "@fortawesome/fontawesome-free/js/regular.min.js";
 
-
 import AOS from "aos";
-import TypeIt from "typeIt";
+import TypeIt from "typeit";
 
 var currentMousePos = { x: -1, y: -1 };
 $(document).mousemove(function(event) {
