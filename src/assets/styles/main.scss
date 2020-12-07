@@ -1,12 +1,15 @@
-*:focus {
-    outline: none;
-}
+* {
+    :focus {
+        outline: none;
+    }
 
-::selection {
-    background: #eee; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-    background: #eee; /* Gecko Browsers */
+    ::selection {
+        background: #eee; /* WebKit/Blink Browsers */
+    }
+
+    ::-moz-selection {
+        background: #eee; /* Gecko Browsers */
+    }
 }
 
 body {
